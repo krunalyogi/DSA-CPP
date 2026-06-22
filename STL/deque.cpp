@@ -8,13 +8,13 @@ int main(){
     dq.emplace_back(3);
     dq.emplace_front(4);
     for(int x:dq){
-        cout<<x;
+        cout<<x<<" ";
     }
     dq.pop_back();
     dq.pop_front();
     dq.back();
     dq.front();
     for(int x:dq){
-        cout<<x;
+        cout<<x<<" ";
     }
 }
