@@ -1,9 +1,5 @@
 #include<iostream>
 using namespace std;
-int sumnum = 0;
-int sum = 0;
-
-
 void PrintName5times(string name,int count,int n){
     if (count == n){
          return;
@@ -82,5 +78,5 @@ int main(){
     cout<<Factorial(10)<<endl;
 
     BT1ton(3);
-    Btnto1(1 );
+    Btnto1(1);
 }
