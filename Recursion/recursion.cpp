@@ -39,7 +39,7 @@ void BT1ton(int i){
         return;
     }
     BT1ton(i-1);
-    cout<<i;
+    cout<<i<<endl;
 }
 
 void Btnto1(int i){
@@ -47,7 +47,7 @@ void Btnto1(int i){
         return;
     }
     Btnto1(i+1);
-    cout<<i;
+    cout<<i<<endl;
 }
 int Factorial(int i){
     if ( i == 0 || i == 1){
@@ -58,6 +58,16 @@ int Factorial(int i){
     }
     return 0;
 }
+
+//recursion as function
+int FunSumOfN(int n){
+    if(n==0){
+        return 0;
+    }
+    return n+FunSumOfN(n-1);
+}
+
+
 int main(){
     int i=10;
     string name = "krunal";
@@ -79,4 +89,7 @@ int main(){
 
     BT1ton(3);
     Btnto1(1);
+
+    //functional recursion
+    cout<<FunSumOfN(3)<<endl;
 }
