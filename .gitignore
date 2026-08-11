@@ -3,4 +3,6 @@
 *.obj
 *.o
 *.pdb
-.vscode/
+.vscode/AGENTS.md
+progress.md
+.github/
