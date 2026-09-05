@@ -1,7 +1,5 @@
 //we are implementing selection sort 
 #include<iostream>
-#include<algorithm>
-#include<array>
 using namespace std;
 int main(){
     int arr[6] = {13,46,24,52,20,9};
